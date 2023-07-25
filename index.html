@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nassim Botanic</title>
+    <link rel="stylesheet" href="css/nassim-style.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/accordion.css" />
+    <link rel="stylesheet" href="css/review-style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <script src="js/script.js" defer></script>
+    <script src="js/form.js" defer></script>
+    <script src="js/carousel.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper" id="top">
+      <header class="primary-header">
+        <div class="logo">
+          <a href="#top"><img src="images/logo.png" alt="Nassim Botanic" /></a>
+        </div>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation"></button>
+
+        <nav>
+          <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+            <li class="navbar-item"><a href="#story">our story</a></li>
+            <li class="navbar-item"><a href="#signature">signature</a></li>
+            <li class="navbar-item"><a href="#packages">packages</a></li>
+            <li class="navbar-item"><a href="#highlights">highlights</a></li>
+            <li class="navbar-item"><a href="#review">reviews</a></li>
+            <li class="navbar-item"><a href="#footer">contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="hero" class="hero">
+          <h1 class="butterfly5">The Nassim Experience</h1>
+          <p>
+            Experience moments of pure brilliance at the renowned Singapore Marriott Tang Plaza Hotel. Whether you're
+            traveling for business, enjoying a family-friendly staycation, or seeking a relaxing getaway, our prime
+            location on the prestigious Orchard Road, directly above Orchard MRT Station, offers unparalleled
+            convenience. Indulge in exceptional comfort within our thoughtfully designed spa experience.
+          </p>
+          <a href="#" class="pri-button">Check out our offering</a>
+        </section>
+
+        <section class="signatures">
+          <div id="story" class="story">
+            <h2>Our Story</h2>
+            <p>
+              As I approached the garden, a gentle breeze carried the sweet scent of blooming flowers, welcoming me into
+              a world of vibrant colors and tranquility. Nature's delights unfolded before my eyes, revealing a tapestry
+              of floral masterpieces. Each flower bed seemed like a painter's canvas. Birds serenaded me from the
+              branches overhead, their melodious songs adding to the symphony of nature. Butterflies flitted from one
+              flower to another, their delicate wings creating a breathtaking display of grace and beauty.
+            </p>
+          </div>
+
+          <h2 class="underline butterfly1"><i class="anchor" id="signature"></i>The Nassim Botanic Signatures</h2>
+
+          <div class="primary-accordion">
+            <div class="primary-accordion-panel">
+              <div id="primary-panel1-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="true"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Signature "Garden Inspire"</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel1-title"
+                aria-hidden="false"
+                id="panel1-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content garden-inspired">
+                    Garden Inspire Spa is a serene oasis, blending seamlessly with nature's tranquility. It offers
+                    rejuvenating treatments amidst lush greenery, providing a holistic and revitalizing experience.
+                    Guests can unwind, connecting with the outdoors while indulging in blissful massages and
+                    revitalizing facials.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="signature01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Full Bloom</p>
+                        <p class="menu-descriptor">Aromatherapy massage</p>
+                        <p class="menu-time">90mins</p>
+                        <p class="menu-price">S$250.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Escape into a world of tranquility and rejuvenation with our exquisite aromatherapy massage.
+                          Designed to soothe your senses and nourish your mind, body, and soul, our skilled therapists
+                          combine the power of touch with the therapeutic benefits of aromatic essential oils to create
+                          a truly blissful experience.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="signature02">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Orchid Garden</p>
+                        <p class="menu-descriptor">Scrub<br />Body Massage<br />+ Special Brew Orchid Tea</p>
+                        <p class="menu-time">30mins<br />90mins</p>
+                        <p class="menu-price">S$320.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Experience a truly Singapore moment with our national flower. Rejuvenate from head to toe with
+                          an orchid infused body scrub to exfoliate and reveal supple skin.Followed by a relaxing
+                          massage using essential oil of Orchid flowers. Finish off with a cup of special brew Orchid
+                          tea and your day is perfect.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="signature03">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Under the Stars</p>
+                        <p class="menu-descriptor">Massage or Facial<br />Hair and scalp treatment</p>
+                        <p class="menu-time">60mins<br />30mins</p>
+                        <p class="menu-price">S$250.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Under the starry night sky, you connect with the vastness of the universe and immerses you in
+                          the beauty of the night sky. This series of treaments are meant to induce sleep by allowing
+                          your body to completely relax. Awaiting your sweet dreams
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-accordion-panel">
+              <div id="primary-panel2-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="false"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Timeless Body Tradition</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel2-title"
+                aria-hidden="true"
+                id="panel2-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content timeless-tradition">
+                    Timeless Body Massages provide a luxurious and rejuvenating experience, offering skilled therapists
+                    and a serene ambiance to escape the daily grind and find tranquility. It's the perfect destination
+                    to unwind, refresh, and indulge in soothing massages.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="timeless01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Swedish</p>
+                        <p class="menu-descriptor">Strength 2</p>
+                        <p class="menu-time">60mins<br />90mins</p>
+                        <p class="menu-price">S$180.00<br />S$250.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Known for its gentle, relaxing, and therapeutic effects on the body. It involves the use of
+                          various techniques such as long, gliding strokes, kneading, friction, tapping, and vibration.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="timeless02">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Balinese</p>
+                        <p class="menu-descriptor">Strength 2</p>
+                        <p class="menu-time">60mins<br />90mins</p>
+                        <p class="menu-price">S$180.00<br />S$250.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Originates from the Indonesian island of Bali. A holistic healing treatment as it aims to
+                          restore balance and harmony to the body, mind, and spirit.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="timeless03">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Chinese Deep Tissue</p>
+                        <p class="menu-descriptor">Strength 4</p>
+                        <p class="menu-time">60mins<br />90mins</p>
+                        <p class="menu-price">S$180.00<br />S$250.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Promotes the flow of Qi (pronounced "chee"), the vital energy believed to circulate through
+                          the body's meridians. It aims to remove blockages and imbalances in the Qi, restoring harmony
+                          and promoting overall well-being.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-accordion-panel">
+              <div id="primary-panel3-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="false"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Mother's Wellness</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel3-title"
+                aria-hidden="true"
+                id="panel3-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content mothers-wellness">
+                    Mother's Wellness Massages cater to new mothers, providing nurturing and rejuvenating experiences
+                    that relieve postpartum discomfort and promote relaxation. With skilled therapists and a caring
+                    approach, these massages prioritize the well-being of mothers, offering a revitalizing journey
+                    towards physical and emotional relief.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="mother01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Prenatal Massage</p>
+                        <p class="menu-descriptor">Suitable for mummies 2nd trimester onwards</p>
+                        <p class="menu-time">60mins<br />90mins</p>
+                        <p class="menu-price">S$200.00<br />S$280.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          The pregnancy journey is filled with anticipation and wonder. Our therapist focus on specific
+                          areas such as aching back and heavy legs to alleviate the muscle tension.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="mother02">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Postnatal Massage</p>
+                        <p class="menu-descriptor">Suitable one month after giving birth. Breast feeding mothers too</p>
+                        <p class="menu-time">60mins<br />90mins</p>
+                        <p class="menu-price">S$200.00<br />S$280.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          New mummies deserve some pampering and well-deserved rest. Reconnect with your body as you
+                          heal and recharge.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="mother03">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Mummy's Glow</p>
+                        <p class="menu-descriptor">Organic Facial Cleansing</p>
+                        <p class="menu-time">90mins</p>
+                        <p class="menu-price">S$280.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          This facial treatment begins with a Himalayan salt inhalation for the lungs and double
+                          cleansing for the skin. Followed by deep cleansing, exfoliation, steaming and extraction using
+                          all natural organic ingredient. A scalp massage is included to make it a complete relaxing
+                          treatment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-accordion-panel">
+              <div id="primary-panel4-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="false"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Scrubs and Wraps</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel4-title"
+                aria-hidden="true"
+                id="panel4-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content scrubs-wraps">
+                    Scrubs and wraps are luxurious spa treatments designed to exfoliate and nourish the skin. Scrubs
+                    gently remove dead skin cells, leaving the skin smooth and glowing, while wraps use rich ingredients
+                    to deeply hydrate and detoxify, promoting overall skin health and relaxation.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="scrubs01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Ocean Salt Scrub</p>
+                        <p class="menu-descriptor">Removes dead skin</p>
+                        <p class="menu-time">30mins</p>
+                        <p class="menu-price">S$90.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          The pregnancy journey is filled with anticipation and wonder. Our therapist focus on specific
+                          areas such as aching back and heavy legs to alleviate the muscle tension.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="scrubs02">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Milk-Honey Body Wrap</p>
+                        <p class="menu-descriptor">Soft and supple skin</p>
+                        <p class="menu-time">60mins</p>
+                        <p class="menu-price">S$180.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Favored by Cleopatra, the legendary Egyptian queen, for its skin-enhancing properties. Soaked
+                          towels or sheets are wrapped around the body, helps to hydrate the skin, improve its texture,
+                          and leave it feeling soft and supple.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-accordion-panel">
+              <div id="primary-panel5-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="false"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Facial</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel5-title"
+                aria-hidden="true"
+                id="panel5-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content facial">
+                    Facial massages are rejuvenating spa treatments that focus on the face and neck, promoting
+                    circulation, relaxation, and skin health. Through gentle techniques, they help reduce tension,
+                    improve skin tone, and leave the complexion looking refreshed and revitalized.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="facial01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Radiance Brightening Facial</p>
+                        <p class="menu-descriptor">Brightening</p>
+                        <p class="menu-time">60mins</p>
+                        <p class="menu-price">S$180.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Designed to improve the overall appearance and radiance of the skin by encouraging the oxygen
+                          intake of the skin to restore radiance and effectively lighten pigmentation and dark spots.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="facial02">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Collagen Face lIft Facial</p>
+                        <p class="menu-descriptor">Natural face lift</p>
+                        <p class="menu-time">60mins</p>
+                        <p class="menu-price">S$180.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Stimulate collagen production and rejuvenate the skin, achieving a natural face lift. Rich
+                          cleansing, AHA exfoliation, acupressure facial massage followed by a Collagen boost mask.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="facial03">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Anti-Oxidant Immunity Boost Facial</p>
+                        <p class="menu-descriptor">Clears toxin and puffiness</p>
+                        <p class="menu-time">60mins</p>
+                        <p class="menu-price">S$180.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Our trained esthetician applies gentle, rhythmic massage techniques to stimulate the flow of
+                          lymphatic fluid in the face and neck. Gentle cupping then drains all excess fluid from the
+                          face, sinuses and skin revealing bright glowing skin cleared of toxins and puffiness.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="secondary-accordion-item" data-panel-number="facial04">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Revitalising Eye Treatment</p>
+                        <p class="menu-descriptor">Luminous eye</p>
+                        <p class="menu-time">30mins</p>
+                        <p class="menu-price">S$90.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Our revitalising eye treatment aim to rejuvenate and refresh the delicate skin around the
+                          eyes, giving a more youthful and rested appearance.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="primary-accordion-panel">
+              <div id="primary-panel6-title ">
+                <button
+                  class="primary-accordion-trigger flex-row-spcbtw flex-end w100"
+                  aria-expanded="false"
+                  aria-controls="primary-accordion1-content"
+                >
+                  <p>Hair and Scalp</p>
+                  <p data-togglestate="close" class="accordion-togglebtn"></p>
+                </button>
+              </div>
+              <div
+                class="primary-accordion-content"
+                role="region"
+                aria-labelledby="panel6-title"
+                aria-hidden="true"
+                id="panel6-content"
+              >
+                <div class="secondary-accordion-panel">
+                  <p class="secondary-panel-content hair-scalp">
+                    Hair and scalp massage is a soothing and invigorating treatment that promotes relaxation while
+                    stimulating blood flow to the scalp, nourishing the hair follicles for healthier and more vibrant
+                    hair.
+                  </p>
+                  <div class="secondary-accordion">
+                    <div class="secondary-accordion-item" data-panel-number="hair01">
+                      <div class="secondary-accordion-trigger menu-header">
+                        <p class="menu-name fw-500">Serum Scalp Hair Treatment</p>
+                        <p class="menu-descriptor">Lush Hair</p>
+                        <p class="menu-time">60mins</p>
+                        <p class="menu-price">S$180.00</p>
+                      </div>
+                      <div class="secondary-accordion-content">
+                        <p>
+                          Organic serum formula is applied on the hair and scalp to provide cleansing, nourishment and
+                          hydration to improve hair follicles growth. Gentle head massage with specific pressure point
+                          to stimulate blood circulation.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end accordion-->
+        </section>
+
+        <section id="packages" class="packages">
+          <h2 class="underline txt-center butterfly6">Nassim Botanic Packages</h2>
+          <h3 class="mt-5 txt-center">Inner Retreat</h3>
+          <div class="packages-grid" data-label="Packages_InnerRetreat">
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Healing Garden</div>
+                <div class="packages-price txt-right">S$580.00</div>
+              </div>
+              <div class="packages-description">
+                Embark on a healing journey with us. Through a series of treatments, it help eliminate toxins and
+                impurities from the body, promoting overall health by stimulating the body's natural detoxification
+                process. Thus allowing the body to restore inner balance.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-overall">3hr 30mins</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>30mins Ocean Salt Scrub</li>
+                    <li>30mins Sauna</li>
+                    <li>60mins Lymphatic Massage</li>
+                    <li>60mins Anti-Oxidant Facial</li>
+                    <li>30mins Hair and scalp treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Date Night</div>
+                <div class="packages-price txt-right">S$650.00</div>
+              </div>
+              <div class="packages-description">
+                Ready for a Date Night? This package pampers you from head to toe, making you feel like a Hollywood
+                superstar at the end of the session.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-overall">4hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>30mins Ocean Salt Scrub</li>
+                    <li>60mins Milk honey Body Wrap</li>
+                    <li>60mins Radiance Facial</li>
+                    <li>60mins Massage of choice</li>
+                    <li>30mins Eye Treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Motherlove Journey</div>
+                <div class="packages-price txt-right">2hr - S$350.00<br />3hr - S$450.00</div>
+              </div>
+              <div class="packages-description">
+                The ultimate indulgence package for pregnant and postntal mummies looking to pamper themselves. Put away
+                all stress and worries and focus on personal self care. For you have been great and brave embarking on
+                this Motherlove journey
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-o2verall">2 / 3hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>60mins Prenatal/Posntal Massage</li>
+                    <li>and/or</li>
+                    <li>60mins Mummy's Glow Facial</li>
+                    <li>30mins Eye Treament.</li>
+                    <li>30mins Hair and scalp treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Stress Recovery</div>
+                <div class="packages-price">S$450.00</div>
+              </div>
+              <div class="packages-description">
+                Well done for closing the deal. Now put work aside and enjoy the fruit of your hardwork. This package is
+                designed to let business travellers destress through a combination of treatment to achieve total
+                relaxation.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-o2verall">3hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>60mins Collagen Face-lift Facial</li>
+                    <li>30mins Foot Massage</li>
+                    <li>60mins Massage of choice</li>
+                    <li>30mins Eye or Scalp Treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Good Night Sweet Dreams</div>
+                <div class="packages-price txt-right">S$450.00</div>
+              </div>
+              <div class="packages-description">
+                Promises a good night sleep after this session. This is the full extension of our signature "Under the
+                stars" treatment.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-o2verall">3hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>30mins Sauna</li>
+                    <li>60 mins Massage of choice</li>
+                    <li>60mins Facial of Choice</li>
+                    <li>30mins Hair and scalp treatment</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="mt-5 txt-center">Couple</h3>
+          <div class="packages-grid" data-label="Packages_Couple">
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">P.S I Love you</div>
+                <div class="packages-price txt-right">S$600.00</div>
+              </div>
+              <div class="packages-description">
+                PS I love you, a gentle reminder to your other half that you love and care. A dedicated time together
+                set aside to connect, communicate, and bond. Be it new love or old marriages, spark that burning fire of
+                love.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-overall">2hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>30mins Ocean Salt Scrub</li>
+                    <li>30mins Sauna</li>
+                    <li>60mins Massage of choice</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Yes I Do</div>
+                <div class="packages-price txt-right">S$1280.00</div>
+              </div>
+              <div class="packages-description">
+                Preparation for the big day can be daunting. Ultimately, this is a time of celebration of love between
+                you and your spouse. Put aside the busy itinerary for a moment and enjoy the company of each other
+                prescence.
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-overall">4hr</div>
+                <div class="packages-time-breakdown">
+                  <ul>
+                    <li>30mins Ocean Salt Scrub</li>
+                    <li>30mins Sauna</li>
+                    <li>60mins Milk-Honey Body Wrap</li>
+                    <li>60mins Facial of choice</li>
+                    <li>60mins Massage of choice</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="mt-5 txt-center">Family</h3>
+          <div class="packages-grid" data-label="Packages_Family">
+            <div class="packages-details">
+              <div class="packages-title">
+                <div class="packages-name fw-500">Oh my little one!</div>
+                <div class="packages-price txt-right">S$320.00</div>
+              </div>
+              <div class="packages-description">
+                Parent - Choice of any "timeless tradition" massage or facial treatment (60mins)<br /><br />Child - Kids
+                Massage (45min) and Organic Kids facial (15mins)
+              </div>
+              <div class="packages-time fw-500">
+                <div class="packages-time-overall">60mins</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="highlights" class="highlights">
+          <h2 class="underline txt-center butterfly3">Exquisite Indulgences</h2>
+          <p class="txt-center mt-5 ma ch-1">
+            Experience our Singapore botanic garden-inspired spa with curated treatments and premium facials. Indulge in
+            fragrant botanical ingredients, skilled therapists, and transformative results. Discover a haven of
+            relaxation, personalized care, and wellness. Embrace botanical luxury for a refreshed, renewed, and glowing
+            experience.<br /><br />Visit our spa oasis today.<br /><br />Experience a sensoria #NASSIMBOTANIC at NASSIM
+            BOTANIC
+          </p>
+
+          <!-- slideshow-->
+          <div class="accordion-container">
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+            <div class="cards">
+              <label class="card" for="item-1" id="spa-picture-1">
+                <img src="images/slideshow 01.jpg" alt="spa-picture" />
+              </label>
+              <label class="card" for="item-2" id="spa-picture-2">
+                <img src="images/slideshow 02.jpg" alt="spa-picture" />
+              </label>
+              <label class="card" for="item-3" id="spa-picture-3">
+                <img src="images/slideshow 03.jpg" alt="spa-picture" />
+              </label>
+            </div>
+          </div>
+          <!-- end slideshow-->
+
+          <!-- book form
+          <div class="signup">
+            <h2 class="underline">Experience Pure Relaxation</h2>
+            <p class="ma mt-5 ch-3 txt-center">
+              Book now and experience rejuvenation like never before. Indulge in personalized treatments by our expert
+              therapists, melt away stress, restore balance, and emerge renewed.
+            </p>
+
+            <form class="signup-form" action="/submit_registration" method="post">
+              <input type="text" id="name" name="name" required placeholder="Name" /><br /><br />
+
+              <input type="tel" id="contact" name="contact" required placeholder="Contact Number" /><br /><br />
+
+              <input type="email" id="email" name="email" required placeholder="Email" /><br /><br />
+
+              <select id="treatment" name="treatment" required>
+                <option value="" disable selected>Select Treatment</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+                Add more options as needed</select
+              ><br /><br />
+
+              <input type="submit" value="Register" />
+            </form>
+          </div>
+          end of book form-->
+
+          <div id="review" class="review">
+            <h2 class="underline butterfly4">Experiences shared by our satisfied clients</h2>
+            <div class="carousel-main-container">
+              <div class="review-wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                  <li class="review-card">
+                    <div class="img"><img src="images/review-1.jpg" alt="img" draggable="false" /></div>
+                    <h2>Daniel</h2>
+                    <span
+                      >I had an amazing experience at this exceptional day spa with its stunning facilities. The steam
+                      room was truly a revelation, providing a rejuvenating and invigorating experience. The massages I
+                      received were absolutely fantastic, leaving me feeling completely relaxed and refreshed. The
+                      post-treatment room, with its thoughtful amenities such as fresh fruit, herbal tea, added a
+                      special touch to my visit. I would like to give a special shout-out to my therpist, who provided
+                      excellent service throughout the day. Overall, I highly recommend Nassim Botanic for its top-notch
+                      facilities, incredible treatments, and exceptional staff.</span
+                    >
+                  </li>
+                  <li class="review-card">
+                    <div class="img"><img src="images/review-5.jpg" alt="img" draggable="false" /></div>
+                    <h2>Ashley &amp; Ellison</h2>
+                    <span
+                      >Nassim Botanic is an exquisite blend of luxury, serene ambience, and natural beauty. I have never
+                      encountered a spa that is as immaculate and well-maintained. The range of facilities, created an 5
+                      star experience. The spa treatments themselves were exceptional, and I must commend my masseur,
+                      for her courteous and professional service. Finally, the friendly staff added an extra layer of
+                      warmth and hospitality, truly enhancing the overall experience. I highly recommend Nassim Botanic
+                      for those seeking a luxurious and rejuvenating retreat in Singapore.</span
+                    >
+                  </li>
+                  <li class="review-card">
+                    <div class="img"><img src="images/review-3.jpg" alt="img" draggable="false" /></div>
+                    <h2>Kathy</h2>
+                    <span
+                      >I have found my go-to spa destination in this hidden gem. The botanic theme creates a delightful
+                      and immersive atmosphere, and the after-spa relaxation area is a truly pleasant space to unwind.
+                      Tucked away within the charming grounds of Marriott Tangs Orchard, it offers a serene and inviting
+                      setting. Additionally, the convenience of easy parking, which is free for spa guests, adds to the
+                      overall convenience and enjoyment of the experience. I highly recommend this spa as a regular
+                      retreat for anyone seeking a tranquil and rejuvenating escape.
+                    </span>
+                  </li>
+                  <li class="review-card">
+                    <div class="img"><img src="images/review-2.jpg" alt="img" draggable="false" /></div>
+                    <h2>Francis</h2>
+                    <span
+                      >Without a doubt, this is the ultimate massage experience in Singapore! I recently had the
+                      pleasure of trying the couple treatment at Nassim botanic Spa, and it was pure bliss from start to
+                      finish. I must give a resounding five stars to their relaxation room, which impressed me with
+                      every details they put into consideration, adding an extra layer of enjoyment to the experience.
+                      Nevertheless, when it comes to the massage itself, Nassim Botanic spa truly stands out as the best
+                      in Singapore.</span
+                    >
+                  </li>
+                  <li class="review-card">
+                    <div class="img"><img src="images/review-4.jpg" alt="img" draggable="false" /></div>
+                    <h2>Katherine</h2>
+                    <span
+                      >As always, the service provided was absolutely wonderful. The treatment rooms offer a sense of
+                      privacy and tranquility, allowing for a truly peaceful experience. Moreover, I was impressed by
+                      the use of high-quality products throughout the treatment, ensuring a luxurious and indulgent
+                      session. Overall, the service, ambiance, and product selection at this establishment consistently
+                      deliver a remarkable experience.</span
+                    >
+                  </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <h3 class="underline">Nassim Botanic SPA</h3>
+        <br />Marriott Tang Plaza Hotel,<br />320 Orchard Road, #04-01 Singapore 23886<br />9297 3724 | 6320 0433
+      </footer>
+    </div>
+  </body>
+</html>

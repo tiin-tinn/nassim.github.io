@@ -1,0 +1,130 @@
+/* Primary Navigation */
+.primary-header {
+  padding: 1rem 1.5rem;
+  background-color: var(--clr-brown);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  font-size: 0.8rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.logo img {
+  width: 80%;
+  padding-top: 0.3rem;
+  transition: width 0.3s ease-in-out;
+}
+
+.primary-header.sticking {
+  padding: 0.5rem 1.5rem;
+}
+
+.primary-header.sticking > .logo img {
+  width: 60%;
+}
+
+.primary-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 65rem) {
+  .primary-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary-navigation {
+    gap: 0.2rem;
+  }
+  .logo img {
+    width: 70%;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 55rem) {
+  .primary-navigation {
+    position: fixed;
+    z-index: 9000;
+    inset: 0 0 0 50%;
+
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+
+    padding: min(8rem, 30vh) 2rem;
+    background-color: hsl(0 0% 0% / 0.8);
+    backdrop-filter: blur(5px);
+
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+
+    background-color: transparent;
+    background-image: url("../images/menu-open.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 2rem;
+    aspect-ratio: 1;
+    border: none;
+    outline: none;
+
+    position: fixed;
+    z-index: 9999;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .nav-toggle[aria-expanded="true"] {
+    background-image: url("../images/menu-closed.svg");
+    width: 1.5rem;
+    aspect-ratio: 1;
+  }
+}
+
+.primary-navigation li {
+  margin: 0 1.5rem;
+}
+
+.primary-navigation li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--neu-400);
+  font-weight: var(--font-w300);
+
+  padding-bottom: 1rem;
+
+  transition: padding-bottom 0.2s ease-in-out;
+}
+
+.primary-navigation li a:hover {
+  position: relative;
+  border-bottom: 2px solid var(--clr-orange);
+
+  padding-bottom: 0.5rem;
+}
