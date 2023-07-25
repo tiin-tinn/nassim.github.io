@@ -134,7 +134,7 @@ h3 {
   text-align: center;
   color: var(--neu-400);
 
-  background-image: url("../images/story-image.jpg");
+  background-image: url("./images/story-image.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   background-position: bottom;
@@ -169,7 +169,7 @@ h3 {
   text-align: center;
   color: var(--neu-400);
 
-  background-image: url("../images/signatures-image.jpg");
+  background-image: url("./images/signatures-image.jpg");
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -232,7 +232,7 @@ h3 {
 }
 
 .accordion-togglebtn {
-  background-image: url(../images/accordion-togglebtn.svg);
+  background-image: url(./images/accordion-togglebtn.svg);
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
@@ -353,7 +353,7 @@ h3 {
   /* margin: 1rem; */
   color: var(--clr-brown);
 
-  background-image: url("../images/flower-bg.png");
+  background-image: url("./images/flower-bg.png");
   background-color: var(--neu-600);
   background-repeat: no-repeat;
   background-position: 130% bottom;
@@ -477,7 +477,7 @@ h3 {
   text-align: center;
   color: var(--neu-400);
 
-  background-image: url("../images/highlights-image.jpg");
+  background-image: url("./images/highlights-image.jpg");
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -505,7 +505,7 @@ h3 {
   width: 3rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly1.png");
+  background-image: url("./images/butterfly1.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -522,7 +522,7 @@ h3 {
   width: 5rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly3.png");
+  background-image: url("./images/butterfly3.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -539,7 +539,7 @@ h3 {
   width: 5rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly4.png");
+  background-image: url("./images/butterfly4.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -556,7 +556,7 @@ h3 {
   width: 5rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly5.png");
+  background-image: url("./images/butterfly5.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -573,7 +573,7 @@ h3 {
   width: 3rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly2.png");
+  background-image: url("./images/butterfly2.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -596,7 +596,7 @@ h3 {
   width: 5rem;
   aspect-ratio: 1;
 
-  background-image: url("../images/butterfly3.png");
+  background-image: url("./images/butterfly3.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -685,7 +685,7 @@ input[type="submit"]:hover {
 }
 
 footer {
-  background-image: url("../images/signatures-image.jpg");
+  background-image: url("./images/signatures-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -707,7 +707,7 @@ footer h3 {
   background-image: none;
 }
 .garden-inspired {
-  background-image: url("../images/flower2-bg.png");
+  background-image: url("./images/flower2-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -715,7 +715,7 @@ footer h3 {
   background-size: 100%;
 }
 .timeless-tradition {
-  background-image: url("../images/flower3-bg.png");
+  background-image: url("./images/flower3-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -723,7 +723,7 @@ footer h3 {
   background-size: 100%;
 }
 .mothers-wellness {
-  background-image: url("../images/flower4-bg.png");
+  background-image: url("./images/flower4-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -731,7 +731,7 @@ footer h3 {
   background-size: 100%;
 }
 .scrubs-wraps {
-  background-image: url("../images/flower5-bg.png");
+  background-image: url("./images/flower5-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -739,7 +739,7 @@ footer h3 {
   background-size: 100%;
 }
 .facial {
-  background-image: url("../images/flower6-bg.png");
+  background-image: url("./images/flower6-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left bottom;
@@ -747,7 +747,7 @@ footer h3 {
   background-size: 100%;
 }
 .hair-scalp {
-  background-image: url("../images/flower1-bg.png");
+  background-image: url("./images/flower1-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -766,7 +766,7 @@ footer h3 {
   padding-top: 10rem;
   padding-bottom: 0rem;
 
-  background-image: url(../images/flower-bg.png);
+  background-image: url(./images/flower-bg.png);
   background-position: bottom center;
   background-blend-mode: multiply;
   background-size: 70%;
